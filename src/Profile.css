@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+.Profile{
+    position: relative;
+    margin-top: 64px;
+}
+.profile_img_container{
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+    position: relative;
+    margin:24px auto;
+    margin-top: 0px;
+}
+#profile__img{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 275px;
+}
+.profile_img_overlay{
+    display: none;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 275px;
+    background-color:rgba(52, 64, 84, 0.75);
+}
+.camera_icon{
+    display: block;
+    margin: auto;
+    margin-top: 65%;
+}
+.profile_img_container:hover .profile_img_overlay {
+    display: block;
+}
+
+
+.mobile_menu, .desktop_share{
+    position: absolute;
+    top: -17px;
+    right: 0;
+}
+.more , .share_icon{
+    padding: 10px 11px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    font-size: smaller;
+}
+.share_icon{
+    display: block;
+    padding: 9px 8px;
+}
+.more:hover,
+.share_icon:hover {
+    background: #F9FAFB;
+}
+.more:active,
+.share_icon:active {
+    box-shadow: 0px 0px 0px 4px #F2F4F7;
+    background-color: #ffffff;
+}
+.desktop_share{
+    display: none;
+}
+#twitter, #slack{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #101828;
+    font-family: Inter;
+}
+#slack{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .Profile{
+        margin-top: 44px;
+    }
+    .profile_img_container:active{
+        box-sizing: content-box;
+        border: 5.5px solid #EBE9FE;
+    }
+    .profile_img_container:active .profile_img_overlay{
+    display: none;
+    }
+    .desktop_share {
+            display: block;
+            right: 208px;
+        }  
+    .mobile_menu{
+        display: none;
+    }
+}
