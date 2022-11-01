@@ -13,7 +13,7 @@
 .slack{
     margin-right: 25px;
 }
-@media (min-width: 426px) {
+@media (min-width: 769px) {
     .social {
         margin: 0px 144px;
         margin-bottom: 64px;

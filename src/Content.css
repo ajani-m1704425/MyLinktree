@@ -1,0 +1,58 @@
+.content {
+    margin: 0px 16px;
+  
+}
+.zuri, .i4g{
+    display: block;
+}
+.zuri_desk,
+.i4g_desk {
+    display: none;
+}
+.hng{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+@media screen and (max-width:769px) {
+    .zuri{
+        margin-top: 70px;
+    }
+    .hng{
+        margin: 16px 0;
+    }
+    .i4g{
+        margin-bottom: 32px;
+        width: 99.1px;
+        height: 24px;
+    }
+}
+@media (min-width: 769px) {
+    .content {
+        margin: 48px 144px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .hng{
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+    }
+   .zuri,
+   .i4g {
+        display: none;
+       
+   }
+
+   .zuri_desk,
+   .i4g_desk {
+        display: block;
+   }
+
+}

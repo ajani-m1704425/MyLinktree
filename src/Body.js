@@ -5,7 +5,7 @@ import Links from "./Links"
 function Body() {
   return (
     <div className='body'>
-        <Links title = "Twitter Link" link = "" id="twitter" />
+        <Links title = "Twitter Link" link = "https://twitter.com/malikolalekana" id="twitter" />
         <Links title = "Zuri Team" link='https://training.zuri.team/' id='btn__zuri' />
         <Links title = "Zuri Books" link='http://books.zuri.team ' id='books' subtext='Books on design and coding'/>
         <Links title = "Python Books" link='https://books.zuri.team/python-for-beginners?ref_id=Ajani-Malik-Olalekan' id='book__design' subtext='Best-selling books on Python that are simple to understand for beginners'/>

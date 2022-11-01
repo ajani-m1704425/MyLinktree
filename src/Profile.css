@@ -13,6 +13,7 @@
     position: relative;
     margin:24px auto;
     margin-top: 0px;
+    cursor: pointer;
 }
 #profile__img{
     object-fit: cover;
@@ -45,6 +46,7 @@
     position: absolute;
     top: -17px;
     right: 0;
+    cursor: pointer;
 }
 .more , .share_icon{
     padding: 10px 11px;
@@ -80,7 +82,7 @@
     display: none;
 }
 
-@media (min-width: 426px){
+@media (min-width: 769px){
     .Profile{
         margin-top: 44px;
         margin-bottom: 56px;
@@ -90,6 +92,7 @@
     .profile_img_container:active{
         box-sizing: content-box;
         border: 5.5px solid #EBE9FE;
+        margin-bottom: 13px;
     }
     .profile_img_container:active .profile_img_overlay{
     display: none;
